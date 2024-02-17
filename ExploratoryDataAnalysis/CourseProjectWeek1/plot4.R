@@ -8,6 +8,7 @@ end_date <- ymd("2007-02-02")
 
 my2007data <- subset(mydata, Date >= start_date & Date <= end_date)
 
+#set four graphs to one graphing window
 par(mfrow = c(2, 2))
 
 #global active power
